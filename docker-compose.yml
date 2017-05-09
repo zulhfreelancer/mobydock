@@ -19,7 +19,7 @@ services:
       - mobydock-redis:/var/lib/redis/data
 
   mobydock:
-    build: .
+    image: zulhfreelancer/mobydock
     volumes:
       - .:/mobydock
     ports:
